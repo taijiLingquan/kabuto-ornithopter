@@ -1,2 +1,21 @@
-# kabuto-ornithopter
-仿生扑翼独角仙飞行体研究原型 灵感来源：假面骑士甲斗王 甲斗昆虫仪（Bionic flapping-wing rhinoceros beetle flying prototype, inspired by: Kamen Rider Kabuto King Kabuto Insect Device）
+# 仿生扑翼甲斗王 · Beetle Ornithopter
+
+基于国产甲斗王合金腰带的仿生扑翼独角仙飞行体研究原型。
+目标：大四毕业前完成 V1.0 —— 扑翼飞行 + 磁吸对接 + 音效/灯效 + AI 语音交互。
+
+## 当前进度
+- 2026-10：大一上。C++ 学习中；ESP32-S3-Zero 入门（10-27 军训结束后开工）
+- 里程碑：2027-08 单翅测试台 + 第一组升力-频率数据
+
+## 目录
+- `docs/` —— 学习路线周计划、分阶段采购清单
+- `logs/` —— 每周进展记录（每周日更新）
+- `code/` —— 代码（C++ / Arduino）
+
+## 技术路线
+- 飞控：ESP32-S3（后续视精度需求加 STM32）
+- 语音：ESP-SR + INMP441；音效：DFPlayer Mini
+- 对接：磁吸 + 霍尔检测；定位：AprilTag → UWB
+
+## 安全说明
+宿舍只做无桨测试；装桨测试在室外；锂电池用防爆袋。
