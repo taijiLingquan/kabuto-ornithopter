@@ -16,6 +16,8 @@
 | `06-blinker-class/` | 类封装（Blinker） | LED(GPIO8) |
 | `07-button/` | 按键输入 + 消抖 | 按键(GPIO2) + LED(GPIO8) |
 | `08-buzzer/` | 蜂鸣器（SOS 声音） | 蜂鸣器模块 S 脚(GPIO9) |
+| `09-light-sensor/` | 模拟输入（夜灯） | 光敏模块 S 脚(GPIO9) + LED(GPIO7) |
+| `10-light-alarm/` | 小综合：光控报警器 | 光敏(GPIO9) + LED(GPIO7) + 蜂鸣器(GPIO8) + WS2812(GPIO21) |
 
 ## 使用方法
 
