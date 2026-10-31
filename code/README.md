@@ -18,6 +18,11 @@
 | `08-buzzer/` | 蜂鸣器（SOS 声音） | 蜂鸣器模块 S 脚(GPIO9) |
 | `09-light-sensor/` | 模拟输入（夜灯） | 光敏模块 S 脚(GPIO9) + LED(GPIO7) |
 | `10-light-alarm/` | 小综合：光控报警器 | 光敏(GPIO9) + LED(GPIO7) + 蜂鸣器(GPIO8) + WS2812(GPIO21) |
+| `11-serial-csv/` | 串口数据流（CSV） | 光敏(GPIO9) |
+| `12-i2c-scanner/` | I2C 扫描器 | SDA(GPIO4) + SCL(GPIO5) |
+| `13-interrupt/` | 中断（按键计数） | 按键(GPIO2) |
+| `14-filter/` | 滤波（移动平均） | 光敏(GPIO9) |
+| `15-state-machine/` | 状态机（光控报警） | 光敏(GPIO9) + LED(GPIO7) + 蜂鸣器(GPIO8) |
 
 ## 使用方法
 
