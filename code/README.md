@@ -23,6 +23,8 @@
 | `13-interrupt/` | 中断（按键计数） | 按键(GPIO2) |
 | `14-filter/` | 滤波（移动平均） | 光敏(GPIO9) |
 | `15-state-machine/` | 状态机（光控报警） | 光敏(GPIO9) + LED(GPIO7) + 蜂鸣器(GPIO8) |
+| `16-mpu6050-attitude/` | MPU6050 姿态解算（pitch/roll） | MPU6050(SDA=4, SCL=5) |
+| `17-complementary-filter/` | 互补滤波（陀螺仪+加速度计） | MPU6050(SDA=4, SCL=5) |
 
 ## 使用方法
 
